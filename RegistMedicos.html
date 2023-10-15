@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro medicos</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Centro medico bogotá</h1>
+    </header>
+
+    <!-- 
+        Nombres
+        Apellidos       
+        Número de Cédula
+        Número de consultorio
+        Telefono
+        Correo
+        Especialidad
+    -->
+
+    <main>
+        <div class="formulario">
+      <form id="registro-medicos-form">
+        <h2>Registro médicos</h2>
+        <label for="nombres" >Nombres</label>
+        <br />
+        <input type="text" id="nombres"/>
+        <br />
+        <label for="apellidos" >Apellidos</label>
+        <br />
+        <input type="text" id="apellidos"/>
+        <br />
+        <label for="cedula" >Numero de cedula</label>
+        <br />
+        <input type="number" id="cedula" />
+        <br />
+        <label for="consultorio" >Numero de consultorio</label>
+        <br />
+        <input type="number" id="consultorio"/>
+        <br />
+        <label for="telefono" >Telefono</label>
+        <br />
+        <input type="number" id="telefono"/>
+        <br />
+        <label for="correo" >Correo</label>
+        <br />
+        <input type="email" id="correo"/>
+        <br />
+        <label for="especialidad" >Especialidad</label>
+        <br />
+        <select name="especialidad"  id="especialidad">
+          <option value="">---Seleccione especialidad---</option>
+          <option value="Medicina general"></option>
+          <option value="Cardiología">Cardiología</option>
+          <option value="Medicina interna">Medicina interna</option>
+          <option value="Dermatología">Dermatología</option>
+          <option value="Rehabilitacion fisica">Rehabilitacion fisica</option>
+          <option value="Psicologia">Psicologia</option>
+          <option value="Odontología">Odontología</option>
+          <option value="Radiologia">Radiologia</option>
+        </select>
+        <!-- 
+            Medicina general.
+            Cardiología.
+            Medicina interna.
+            Dermatología.
+            Rehabilitación física.
+            Psicología.
+            Odontología.
+            Radiología.
+        -->
+
+        <br />
+        <br />
+        <input type="submit" value="Enviar" />
+        <br />
+      
+      </form>
+      <a href="./index.html"><input type="submit" value="Volver" /></a>
+    </div>
+      
+    </main>
+
+    <footer>
+      <h2>Realizado por:</h2>
+      <p>Grupo 1 desarrollo web backend</p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

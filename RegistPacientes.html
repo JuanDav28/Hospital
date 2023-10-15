@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro pacientes</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro medico bogotá</h1>
+    </header>
+
+    <main>
+        <!-- 
+            Nombres
+            Apellidos
+            Número de Cédula
+            Edad
+            Telefono
+            Especialidad requerida.
+        -->
+        <div class="formulario">
+        <form id="registro-pacientes-form">
+            <label for="nombres" id="nombres">Nombres</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="apellidos" id="apellidos">Apellidos</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="cedula" id="cedula">Numero de Cedula</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="edad" id="edad">Edad</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="telefono" id="telefono">Telefono</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="especialidad" id="especialidad">Especialidad requerida</label>
+            <br>
+            <select name="Especialidad requerida" id="especialidad requerida">
+                    <!-- 
+                    Medicina general.
+                    Cardiología.
+                    Medicina interna.
+                    Dermatología.
+                    Rehabilitación física.
+                    Psicología.
+                    Odontología.
+                    Radiología.
+                    -->
+                <option value="">---Seleccione especialidad---</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="Cardiologia">Cardiologia</option>
+                <option value="Medicina interna">Medicina interna</option>
+                <option value="Dermatologia">Dermatologia</option>
+                <option value="Rehabilitacion Fisica">Rehabilitacion Fisica</option>
+                <option value="Psicologia">Psicologia</option>
+                <option value="Odontologia">Odontologia</option>
+                <option value="Radiologia">Radiologia</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <br>
+            <br>
+            <a href="./index.html"><input type="submit" value="Volver" /></a>
+        </form>
+    </div>
+    </main>
+
+
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Grupo 1 desarrollo web backend</p>
+      </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
